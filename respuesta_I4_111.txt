@@ -10,10 +10,12 @@ D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA? ALFA
 
 
 Pregunta:
-E- ¿Algún integrante tuvo problemas al hacer el push?
-F- ¿Qué problemas surgieron?
+E- ¿Algún integrante tuvo problemas al hacer el push? BETA Y GAMMMA
+F- ¿Qué problemas surgieron? a BETTA Y GAMMA les rechaza hacer el push ya que habia cambios en la rama que no se habian hecho en el repo local desde la ultima actualizacion
 G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
-adoptada?
-H- ¿Qué sucede si cada uno utiliza el push -f?
+adoptada? La solucion seria hacer un git pull y obtener los ultimos cambios y modificar nuevamente
+H- ¿Qué sucede si cada uno utiliza el push -f? forzamos a hacer los cambios en la rama 
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ?
+Lo que debemos hacer es que cada uno copie los archivos de la rama TESTING, edite y haga el push, esto se debe seguir por orden, primero ALFA, luego BETA y por ultimo GAMMA
+y luego hacer el merge a la rama DESARROLLO
